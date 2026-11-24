@@ -1,0 +1,16 @@
+{
+  "model_key": "bloodmnist_no_cbam",
+  "dataset": "bloodmnist",
+  "variant": "MedNet without CBAM (ablation)",
+  "test_n": 3421,
+  "overall": {
+    "accuracy": 0.8948,
+    "macro_f1": 0.8813,
+    "macro_precision": 0.8855,
+    "macro_recall": 0.8778,
+    "auc": 0.9896
+  },
+  "per_class": [],
+  "confusion_matrix": null,
+  "source": "Seeded from the reproduction notebook output (per-class values rounded to 2 dp). Run scripts/evaluate.py to regenerate at full precision with confusion matrix."
+}

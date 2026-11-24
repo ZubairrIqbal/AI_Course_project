@@ -1,0 +1,73 @@
+{
+  "model_key": "dermamnist_weighted",
+  "dataset": "dermamnist",
+  "variant": "MedNet + CBAM (class-weighted focal loss)",
+  "test_n": 2005,
+  "overall": {
+    "accuracy": 0.7137,
+    "macro_f1": 0.4306,
+    "macro_precision": null,
+    "macro_recall": 0.4183,
+    "auc": 0.8914
+  },
+  "per_class": [
+    {
+      "class": "actinic keratoses & intraepithelial carcinoma",
+      "precision": null,
+      "recall": 0.212,
+      "f1": null,
+      "support": 66,
+      "auc": null
+    },
+    {
+      "class": "basal cell carcinoma",
+      "precision": null,
+      "recall": 0.476,
+      "f1": null,
+      "support": 103,
+      "auc": null
+    },
+    {
+      "class": "benign keratosis-like lesions",
+      "precision": null,
+      "recall": 0.468,
+      "f1": null,
+      "support": 220,
+      "auc": null
+    },
+    {
+      "class": "dermatofibroma",
+      "precision": null,
+      "recall": 0.13,
+      "f1": null,
+      "support": 23,
+      "auc": null
+    },
+    {
+      "class": "melanoma",
+      "precision": null,
+      "recall": 0.152,
+      "f1": null,
+      "support": 223,
+      "auc": null
+    },
+    {
+      "class": "melanocytic nevi",
+      "precision": null,
+      "recall": 0.903,
+      "f1": null,
+      "support": 1341,
+      "auc": null
+    },
+    {
+      "class": "vascular lesions",
+      "precision": null,
+      "recall": 0.586,
+      "f1": null,
+      "support": 29,
+      "auc": null
+    }
+  ],
+  "confusion_matrix": null,
+  "source": "Seeded from the reproduction notebook output (only per-class recall was printed). Run scripts/evaluate.py to regenerate at full precision with confusion matrix."
+}

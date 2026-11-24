@@ -1,0 +1,16 @@
+{
+  "model_key": "octmnist_no_cbam",
+  "dataset": "octmnist",
+  "variant": "MedNet without CBAM (ablation)",
+  "test_n": 1000,
+  "overall": {
+    "accuracy": 0.579,
+    "macro_f1": 0.51,
+    "macro_precision": 0.5927,
+    "macro_recall": 0.579,
+    "auc": 0.8782
+  },
+  "per_class": [],
+  "confusion_matrix": null,
+  "source": "Seeded from the reproduction notebook output (per-class values rounded to 2 dp). Run scripts/evaluate.py to regenerate at full precision with confusion matrix."
+}

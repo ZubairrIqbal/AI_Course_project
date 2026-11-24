@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+runs/
+*.npz
+.DS_Store
+.env
+# NOTE: models/*.pt are intentionally NOT ignored (~13 MB each, well under GitHub's 100 MB limit)

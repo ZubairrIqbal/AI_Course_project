@@ -1,0 +1,5 @@
+# --- extra deps for training / evaluating / testing locally (NOT needed on Render) ---
+-r requirements.txt
+medmnist>=3.0
+scikit-learn>=1.3
+pytest>=8

@@ -1,0 +1,49 @@
+{
+  "model_key": "octmnist_cbam",
+  "dataset": "octmnist",
+  "variant": "MedNet + CBAM (focal loss)",
+  "test_n": 1000,
+  "overall": {
+    "accuracy": 0.609,
+    "macro_f1": 0.5449,
+    "macro_precision": 0.6489,
+    "macro_recall": 0.609,
+    "auc": 0.8717
+  },
+  "per_class": [
+    {
+      "class": "choroidal neovascularization",
+      "precision": 0.55,
+      "recall": 0.92,
+      "f1": 0.68,
+      "support": 250,
+      "auc": null
+    },
+    {
+      "class": "diabetic macular edema",
+      "precision": 0.86,
+      "recall": 0.52,
+      "f1": 0.65,
+      "support": 250,
+      "auc": null
+    },
+    {
+      "class": "drusen",
+      "precision": 0.61,
+      "recall": 0.08,
+      "f1": 0.14,
+      "support": 250,
+      "auc": null
+    },
+    {
+      "class": "normal",
+      "precision": 0.58,
+      "recall": 0.92,
+      "f1": 0.71,
+      "support": 250,
+      "auc": null
+    }
+  ],
+  "confusion_matrix": null,
+  "source": "Seeded from the reproduction notebook output (per-class values rounded to 2 dp). Run scripts/evaluate.py to regenerate at full precision with confusion matrix."
+}
