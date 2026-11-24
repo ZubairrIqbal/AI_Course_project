@@ -1,8 +1,7 @@
-# --- runtime deps for the web app (kept small for Render's free 512 MB instance) ---
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.4.1
+torch>=2.6
+numpy>=2.0
 streamlit>=1.40,<2
-numpy<2
 pillow>=10
 pandas>=2.0
 matplotlib>=3.7
